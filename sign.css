@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+.body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url("/bg.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    width: 448px;
+    height: 500px;
+    border-radius: 0.6rem;
+    background-color: white;
+    padding: 0 24px 24px;
+    margin: 0px 532.4px;
+}
+form h1{
+    height: 40px;
+    /* width: 80px; */
+    color: #4f4f4f;
+    font-size: 30px;
+    margin: 15px 0px;
+    line-height: 64px;
+    font-weight: 100;
+    display: inline-block;
+}
+form h2 a{
+    position: absolute;
+    top: 155px;
+    left: 938px;
+    color: #4f4f4f;
+    transform: rotate(45deg);
+    text-decoration: none;
+}
+.section{
+    margin-top: 24px;
+}
+.section input{
+    padding: 13px 12px;
+    background-color: #fff;
+    width: 400px;
+    height: 48px;
+    border: 1px solid #e7e7e7;
+    border-radius: 6px;
+    font-size: 18px;
+    outline: none;
+    margin-bottom: 20px;
+}
+.checkbox{
+    margin: 0 0 20px;
+    width: 400px;
+    height: 32px;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+.section #check{
+    height: 18px;
+    width: 18px;
+    margin: 3px 8px 3px 4px;
+    cursor: pointer;
+    border: 2px solid #e7e7e7;
+}
+.section #check:hover{
+    border: 2px solid #ef4f5f;
+    background-color: #fff;
+}
+.section #check:checked{
+    border: 2px solid #ef4f5f;
+    background-color: #fff;
+}
+.checkbox span{
+    font-size: 12px;
+    color: #696969;
+    width: 300px;
+    height: 32px;
+}
+.checkbox span a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #ef4f5f;
+}
+.btn1 button{
+    color: white;
+    font-size: 18px;
+    width: 400px;
+    height: 43px;
+    background-color: #cdcdcd;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 20px;
+}
+.line{
+    height: 1px;
+    position: relative;
+    width: 100%;
+    background-color: #e7e7e7;
+    margin-bottom: 20px;
+}
+.line::before{
+    content: 'Or';
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    background-color: #fff;
+    color: #696969;
+    padding: 0px 15px;
+}
+.gbtn button{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 43px;
+    align-items: center;
+    color: #3c4043;
+    font-size: 16px;
+    border: 2px solid #e7e7e7;
+    border-radius: 6px;
+}   
+.gbtn button i{
+    color: #ef4f5f;
+    padding-right: 5px;
+    
+}
+.br{
+    border-bottom: 1px solid #e7e7e7;
+    margin: 24px;
+    width: 350px;
+}
+.form-link span{
+    font-size: 16px;
+    margin: 0px 0px 10px;
+    color: #363636;
+}
+.form-link span a{
+    color: #ef4f5f;
+    font-size: 18px;
+    text-decoration: none;
+}
